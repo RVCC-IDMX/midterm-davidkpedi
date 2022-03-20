@@ -1,3 +1,102 @@
 /* Journey to the Center of the Earth Practicum */
 /* David Kpedi*/
 
+body{
+    background-color: #765729;
+}
+header {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right:auto;
+    margin-left :auto; 
+    border:3px solid#886644;
+    
+    padding-left: 40px;
+    padding-right:  40px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    
+    
+
+}
+
+nav {
+    max-width: 100%;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right:auto;
+    margin-left :auto; 
+    border:3px solid #886644;
+    background-color: #F5DEB3;
+    padding-left: 40px;
+    padding-right:  40px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    box-shadow: 10px 10px 10px #616060 inset ;
+    border-radius: 25px;
+}
+
+
+main{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right:auto;
+    margin-left :auto; 
+    border:3px solid#886644;
+    background-color: #F5DEB3;
+    padding-left: 40px;
+    padding-right:  40px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    box-shadow: 10px 10px 10px #616060 inset ;
+    border-radius: 25px;
+
+    
+}
+#cryptogram img{
+    max-width: 100%;
+}
+#cryptogram figure {
+    text-align:center;
+}
+
+
+aside{
+
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right:auto;
+    margin-left :auto; 
+    border:3px solid#886644;
+    background-color: #F5DEB3;
+    padding-left: 40px;
+    padding-right:  40px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    box-shadow: 10px 10px 10px #616060 inset ;
+    border-radius: 25px;
+
+
+
+
+}
+
+
+
+footer{ margin-top: auto;
+    margin-bottom: auto;
+    margin-right:auto;
+    margin-left :auto; 
+    border:3px solid#886644;
+    background-color: #F5DEB3;
+    padding-left: 40px;
+    padding-right:  40px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    box-shadow: 10px 10px 10px #616060 inset ;
+    border-radius: 25px;
+
+
+}
