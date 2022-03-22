@@ -2,42 +2,61 @@
 /* David Kpedi*/
 
 body{
-    background-color: #765729;
+    box-sizing: border-box;
+    background-color: #ccc;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    border-bottom: black;
 }
 header {
+    display: center;
     text-align: center;
     margin-top: auto;
     margin-bottom: auto;
     margin-right:auto;
     margin-left :auto; 
     border:3px solid#886644;
+    background-color:#886644;
+    text-decoration-color: white;
     
     padding-left: 40px;
     padding-right:  40px;
     padding-bottom: 40px;
     padding-top: 40px;
-    
-    
-
+  
+}
+img {
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 1em;
+   
 }
 
 nav {
-    max-width: 100%;
     text-align: center;
     margin-top: auto;
     margin-bottom: auto;
     margin-right:auto;
     margin-left :auto; 
-    border:3px solid #886644;
-    background-color: #F5DEB3;
+    border:3px solid#886644;
+    background-color: #ccc;
     padding-left: 40px;
     padding-right:  40px;
     padding-bottom: 40px;
     padding-top: 40px;
     box-shadow: 10px 10px 10px #616060 inset ;
     border-radius: 25px;
+    justify-content: center;
 }
-
+nav li{
+    display:inline-block;
+    padding:0px 32px;
+    text-transform: uppercase;
+    text-align: center;
+    } 
+   
 
 main{
     margin-top: auto;
@@ -45,7 +64,7 @@ main{
     margin-right:auto;
     margin-left :auto; 
     border:3px solid#886644;
-    background-color: #F5DEB3;
+    background-color: #ccc;
     padding-left: 40px;
     padding-right:  40px;
     padding-bottom: 40px;
@@ -53,7 +72,20 @@ main{
     box-shadow: 10px 10px 10px #616060 inset ;
     border-radius: 25px;
 
+}
+
+body main p::first-line(2)
+{
+    font-size-adjust: 1;
     
+}
+span{
+font-style: italic;
+}
+
+span.character{
+    font-weight: bold;
+    font-style: normal;
 }
 #cryptogram img{
     max-width: 100%;
@@ -63,6 +95,7 @@ main{
 }
 
 
+
 aside{
 
     margin-top: auto;
@@ -70,19 +103,32 @@ aside{
     margin-right:auto;
     margin-left :auto; 
     border:3px solid#886644;
-    background-color: #F5DEB3;
+    background-color: #ccc;
     padding-left: 40px;
     padding-right:  40px;
-    padding-bottom: 40px;
-    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
     box-shadow: 10px 10px 10px #616060 inset ;
     border-radius: 25px;
-
-
-
-
 }
 
+.submission div{
+    border: #080808 solid;
+    padding: 50px;
+   
+    
+}
+.submission-box{
+    flex-basis: 25%;
+   flex-wrap: wrap;
+   
+}
+
+.submission{
+    display: flex;
+   
+   
+}
 
 
 footer{ margin-top: auto;
@@ -90,13 +136,14 @@ footer{ margin-top: auto;
     margin-right:auto;
     margin-left :auto; 
     border:3px solid#886644;
-    background-color: #F5DEB3;
+    background-color: #ccc;
     padding-left: 40px;
     padding-right:  40px;
     padding-bottom: 40px;
     padding-top: 40px;
-    box-shadow: 10px 10px 10px #616060 inset ;
-    border-radius: 25px;
+    box-shadow: 15px 15px 15px rgb(105, 98, 98) inset ;
+    border-radius: 40px;
+    text-align: center;
 
 
 }
