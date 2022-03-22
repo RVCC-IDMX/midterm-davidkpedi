@@ -1,5 +1,6 @@
 /* Journey to the Center of the Earth Practicum */
-/* David Kpedi*/
+/* David Kpedi*/ 
+    
 
 body{
     box-sizing: border-box;
@@ -94,9 +95,34 @@ span.character{
     text-align:center;
 }
 
+@media(min-width:768px){
+  aside div {
+    .submission div{
+        border: #080808 solid;
+        padding: 50px;
+       
+        
+    }
+    .submission-box{
+        flex-basis: 25%;
+       flex-wrap: wrap;
+       
+    }
+    
+    .submission{
+        display: flex;
+       
+       
+    }
+    
 
 
-aside{
+  }
+
+    
+
+
+aside div{
 
     margin-top: auto;
     margin-bottom: auto;
